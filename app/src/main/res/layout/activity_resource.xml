@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetails.ResourceActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:text="Resources"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/text_resource_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:text="A"/>
+
+    <TextView
+        android:id="@+id/text_resource_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:text="A"/>
+
+    <TextView
+        android:id="@+id/text_resource_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:text="A"/>
+
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/resource_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_margin="10dp">-->
+        <!---->
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+
+</LinearLayout>

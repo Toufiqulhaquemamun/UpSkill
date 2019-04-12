@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home">
+    </item>
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search">
+    </item>
+
+    <item
+        android:id="@+id/menu_dashboard"
+        android:title="My Courses"
+        android:icon="@drawable/ic_dashboard">
+    </item>
+
+    <item
+        android:id="@+id/menu_wish_list"
+        android:title="@string/wish_list"
+        android:icon="@drawable/ic_wishlist">
+    </item>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile">
+    </item>
+
+
+</menu>

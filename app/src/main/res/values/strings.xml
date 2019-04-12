@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Up Skill</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="home">Home</string>
+    <string name="wish_list">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+
+    <string name="profile_toolbar">Account</string>
+    <string name="profile_user_name">User Name</string>
+
+    <!--Login Page String-->
+    <string name="editText_user_id">User ID</string>
+    <string name="editText_password">******</string>
+    <string name="text_forgotPass">Forgot password?</string>
+    <string name="button_signIn">Sign in</string>
+
+    <string name="text_all_category">All Category</string>
+
+    <string name="dashboard_toolbar">Dashboard</string>
+    <string name="wish_list_toolbar">Favourite Courses</string>
+
+    <string name="search_toolbar">Search Courses</string>
+
+    <string name="text_video_file_name">File Name</string>
+    <string name="text_video_file_duration">00:00</string>
+    <string name="text_lecture">Lecture</string>
+    <string name="text_more">More</string>
+
+    <string name="text_about">About this Course</string>
+    <string name="text_qa">Questions and Answer</string>
+    <string name="text_resources">Resources</string>
+
+</resources>

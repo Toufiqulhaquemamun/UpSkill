@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetails.CourseDetailsActivity">
+
+    <!--<VideoView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:id="@+id/player_view_course"-->
+        <!--/>-->
+
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view_course"
+        android:layout_width="match_parent"
+        app:use_artwork="true"
+        app:show_timeout="5000"
+        app:use_controller="true"
+        app:surface_type="texture_view"
+        app:fastforward_increment="10000"
+        app:rewind_increment="10000"
+        android:layout_height="250dp">
+
+
+        <ProgressBar
+            style="?android:progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/proressvideo"/>
+
+
+
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/text_lectures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_lecture"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack"
+
+            />
+
+        <TextView
+            android:id="@+id/text_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:text="@string/text_more"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/listviewvideo"-->
+        <!--android:layout_marginTop="310dp"-->
+        <!--android:padding="2dp"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</ListView>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/courseVideoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="301dp"
+        android:padding="1dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

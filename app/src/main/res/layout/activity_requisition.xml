@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequisitionActivity">
+
+    <TextView
+        android:id="@+id/txtviewReq"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/spinnerDomain"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:text="Feel Free to Send Your Requisition"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select A Domain"
+        android:paddingLeft="10dp"
+        android:layout_above="@id/spinnerDomain"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerDomain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:paddingLeft="10dp"
+
+        android:popupBackground="@color/colorGrey"
+        android:layout_above="@id/editText_training_name"
+        android:layout_marginBottom="40dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/editText_training_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Training Name"
+        android:textColor="@color/colorBlack"
+        android:layout_centerInParent="true"
+        android:paddingLeft="20dp"
+        android:ellipsize="middle"
+        android:textSize="18sp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:inputType="text"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/editText_Objective"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editText_training_name"
+        android:hint="Training objective"
+
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="20dp"
+        android:textSize="18sp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRequisition"
+        android:text="                  Send                    "
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText_Objective"
+        android:background="@drawable/rounded_edittext"
+        />
+</RelativeLayout>
